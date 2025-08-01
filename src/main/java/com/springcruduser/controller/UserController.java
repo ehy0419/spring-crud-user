@@ -40,7 +40,7 @@ public class UserController {
         return userService.update(userId, userRequest);
     }
 
-    @DeleteMapping("/user/{uersId}")
+    @DeleteMapping("/user/{userId}")
     public void deleteUser(
             @PathVariable Long userId
     ) {
